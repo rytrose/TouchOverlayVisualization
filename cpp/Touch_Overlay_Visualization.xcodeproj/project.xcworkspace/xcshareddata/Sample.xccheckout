@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6BCB1DCA-8480-4B53-8682-4A656B92DC03</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2c4fec33-d6db-4435-8639-75ae1e4e153e++2920</key>
+		<string>http://192.168.1.66/repos/bsp</string>
+		<key>2c4fec33-d6db-4435-8639-75ae1e4e153e++3101</key>
+		<string>http://192.168.1.66/repos/server</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2c4fec33-d6db-4435-8639-75ae1e4e153e++2920</key>
+		<string>bsp/</string>
+		<key>2c4fec33-d6db-4435-8639-75ae1e4e153e++3101</key>
+		<string>server/</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>2c4fec33-d6db-4435-8639-75ae1e4e153e++2920</key>
+		<string>http://192.168.1.66/repos</string>
+		<key>2c4fec33-d6db-4435-8639-75ae1e4e153e++3101</key>
+		<string>http://192.168.1.66/repos</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://192.168.1.66/repos/server</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2c4fec33-d6db-4435-8639-75ae1e4e153e++3101</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2c4fec33-d6db-4435-8639-75ae1e4e153e++2920</string>
+			<key>IDESourceControlWCCName</key>
+			<string>bsp</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2c4fec33-d6db-4435-8639-75ae1e4e153e++3101</string>
+			<key>IDESourceControlWCCName</key>
+			<string>server</string>
+		</dict>
+	</array>
+</dict>
+</plist>

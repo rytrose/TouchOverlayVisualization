@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1390CE0F20110E11004E0E11 /* liboscpack.so.1.1.0 in Frameworks */ = {isa = PBXBuildFile; fileRef = 1390CE0E20110E10004E0E11 /* liboscpack.so.1.1.0 */; };
+		8DD76F650486A84900D96B5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+		CE88E609151323D7006EB164 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE88E608151323D7006EB164 /* Carbon.framework */; };
+		EF81CE4F10233F70002111B2 /* SDK_SampleCode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF81CE4D10233F70002111B2 /* SDK_SampleCode.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F690486A84900D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1390CE0C20110DA9004E0E11 /* Users */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Users; path = ../../../../..; sourceTree = "<group>"; };
+		1390CE0E20110E10004E0E11 /* liboscpack.so.1.1.0 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liboscpack.so.1.1.0; path = ../../oscpack/liboscpack.so.1.1.0; sourceTree = "<group>"; };
+		8DD76F6C0486A84900D96B5E /* Touch_Overlay_Visualization */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Touch_Overlay_Visualization; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE88E608151323D7006EB164 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		D0DDEA821B42A2F400AB8FB2 /* PQMTClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PQMTClient.h; path = ../PQMTClient/PQMTClient.h; sourceTree = "<group>"; };
+		EF81CE4D10233F70002111B2 /* SDK_SampleCode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SDK_SampleCode.cpp; sourceTree = "<group>"; };
+		EF81CE4E10233F70002111B2 /* SDK_SampleCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDK_SampleCode.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F660486A84900D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1390CE0F20110E11004E0E11 /* liboscpack.so.1.1.0 in Frameworks */,
+				CE88E609151323D7006EB164 /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* sample */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+				CE88E608151323D7006EB164 /* Carbon.framework */,
+				1390CE0B20110DA9004E0E11 /* Frameworks */,
+			);
+			name = sample;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D0DDEA821B42A2F400AB8FB2 /* PQMTClient.h */,
+				EF81CE4D10233F70002111B2 /* SDK_SampleCode.cpp */,
+				EF81CE4E10233F70002111B2 /* SDK_SampleCode.h */,
+				08FB7796FE84155DC02AAC07 /* main.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1390CE0B20110DA9004E0E11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1390CE0E20110E10004E0E11 /* liboscpack.so.1.1.0 */,
+				1390CE0C20110DA9004E0E11 /* Users */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F6C0486A84900D96B5E /* Touch_Overlay_Visualization */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F620486A84900D96B5E /* Touch_Overlay_Visualization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "Touch_Overlay_Visualization" */;
+			buildPhases = (
+				8DD76F640486A84900D96B5E /* Sources */,
+				8DD76F660486A84900D96B5E /* Frameworks */,
+				8DD76F690486A84900D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Touch_Overlay_Visualization;
+			productInstallPath = "$(HOME)/bin";
+			productName = sample;
+			productReference = 8DD76F6C0486A84900D96B5E /* Touch_Overlay_Visualization */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+			};
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "Touch_Overlay_Visualization" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* sample */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F620486A84900D96B5E /* Touch_Overlay_Visualization */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F640486A84900D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F650486A84900D96B5E /* main.cpp in Sources */,
+				EF81CE4F10233F70002111B2 /* SDK_SampleCode.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB923208733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LIBRARY = "libc++";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_GLIBCXX_DEBUG=1",
+					"_GLIBCXX_DEBUG_PEDANTIC=1",
+				);
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-lPQMTClient";
+				PRODUCT_NAME = Touch_Overlay_Visualization;
+				SDKROOT = macosx;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Debug;
+		};
+		1DEB923308733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LIBRARY = "libc++";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-lPQMTClient";
+				PRODUCT_NAME = Touch_Overlay_Visualization;
+				SDKROOT = macosx;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Release;
+		};
+		1DEB923608733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../PQMTClient;
+				LIBRARY_SEARCH_PATHS = "../PQMTClient/$(CLANG_CXX_LIBRARY)/$(ARCHS)";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lPQMTClient";
+				PREBINDING = NO;
+				SDKROOT = macosx;
+				VALID_ARCHS = i386;
+			};
+			name = Debug;
+		};
+		1DEB923708733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = NDEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../PQMTClient;
+				LIBRARY_SEARCH_PATHS = "../PQMTClient/$(CLANG_CXX_LIBRARY)/$(ARCHS)";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lPQMTClient";
+				PREBINDING = NO;
+				SDKROOT = macosx;
+				VALID_ARCHS = i386;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "Touch_Overlay_Visualization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923208733DC60010E9CD /* Debug */,
+				1DEB923308733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "Touch_Overlay_Visualization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923608733DC60010E9CD /* Debug */,
+				1DEB923708733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
