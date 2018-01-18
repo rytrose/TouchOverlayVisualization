@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Touch Overlay Visualization</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body>
+    <h1>Hello world!</h1>
+    <p id="m"></p>
+</body>
+
+<script src="js/osc-browser.min.js"></script>
+<script type="text/javascript">
+    /*
+        OSC Communication and Handlers
+    */
+    var port = new osc.WebSocketPort({
+        url: "ws://" + window.location.hostname + ":8081"
+    });
+
+    port.on("message", function (oscMessage) {
+        // Configure handlers here
+        document.getElementById("m").innerHTML = oscMessage.args;
+    });
+
+    port.open();
+</script>
+</html>
